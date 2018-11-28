@@ -1,0 +1,82 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, select, textarea, legend {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-size: 100%;
+}
+fieldset, input, button, select, textarea {
+  margin: 0;
+  padding: 0;
+  outline-style: none;
+}
+select, input, img {
+  vertical-align: middle;
+}
+img, button, iframe {
+  border: 0 none;
+}
+s, i, em {
+  font-style: normal;
+  text-decoration: none;
+}
+textarea {
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+/* 移除type="number"时的上下小箭头 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+body {
+  color: #444;
+  font-size: 14px;
+  background-color: #F2F5FC;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+}
+.base-container {
+  width: 1200px;
+  margin: 0 auto;
+} */
+.require:before{
+  content: '*';
+  color: #f56c6c;
+  margin-right: 4px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
